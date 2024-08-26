@@ -1,0 +1,15 @@
+{
+  "name": "hohobob",
+  "version": "1.0.0",
+  "description": "메뉴 소개 사이트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
