@@ -11,7 +11,7 @@
 - 호호밥이라는 가상의 식당을 소개하는 웹 페이지
 - `HTML`, `CSS`, `SCSS`로만 구현
 
-### 2. 기술 스택
+## 2. 기술 스택
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
 
