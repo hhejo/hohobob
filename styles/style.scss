@@ -1,1 +1,22 @@
 @import './reset.css';
+@import './nav';
+@import './introduce';
+@import './story';
+@import './products';
+@import './reviews';
+// @import './news';
+@import './footer';
+
+.body {
+  padding-top: $nav-height;
+  background-color: whitesmoke;
+  font-family: 'Montserrat', system-ui;
+  font-optical-sizing: auto;
+  color: $black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

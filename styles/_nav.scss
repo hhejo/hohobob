@@ -1,0 +1,70 @@
+@import './variables';
+
+.nav {
+  background-color: $white;
+  height: $nav-height;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  &__link {
+    color: $carrot;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    // &:hover,
+    // &:focus,
+    // &:active {
+    //   color: $moregray;
+    // }
+  }
+}
+
+.menu {
+  display: flex;
+}
+
+.links {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.2s ease;
+  box-sizing: border-box;
+  padding-bottom: 2px;
+
+  &:link,
+  &:visited {
+    color: $grass;
+    border-bottom: solid $white 1px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $lightgrass;
+    border-bottom: solid $lightgrass 1px;
+  }
+}
+
+.auth {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}

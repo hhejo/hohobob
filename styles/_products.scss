@@ -1,0 +1,90 @@
+@import './variables';
+
+.products-screen {
+  // background-color: $lightcarrot;
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - $nav-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-category {
+  font-size: 1.4rem;
+  color: $moregray;
+  margin-bottom: 10px;
+}
+
+.products-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: $darkgray;
+}
+
+.products-content {
+  font-size: 0.9rem;
+  color: gray;
+  box-sizing: border-box;
+  width: 600px;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.products-item {
+  background-color: $black;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px $darkgray;
+  width: 400px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+
+  &:hover {
+    // filter: brightness(60%);
+    opacity: 1;
+    background-size: 100%;
+  }
+}
+
+.image1 {
+  background-image: url('../images/box1.jpg');
+  background-position: center;
+  background-size: 115%;
+  transition: background-size 0.3s ease, opacity 0.3s ease;
+}
+
+.image2 {
+  background-image: url('../images/box2.jpg');
+  background-position: center;
+  background-size: 115%;
+  transition: background-size 0.3s ease, opacity 0.3s ease;
+}
+
+.image3 {
+  background-image: url('../images/box3.jpg');
+  background-position: center;
+  background-size: 115%;
+  transition: background-size 0.3s ease, opacity 0.3s ease;
+}
+
+.image4 {
+  background-image: url('../images/box4.jpg');
+  background-position: center;
+  background-size: 115%;
+  transition: background-size 0.3s ease, opacity 0.3s ease;
+}

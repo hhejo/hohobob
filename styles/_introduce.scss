@@ -1,0 +1,26 @@
+@import './variables';
+
+.introduce-screen {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url('../images/introduce.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: calc(100vh - $nav-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introduce-title {
+  color: $white;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.introduce-content {
+  color: $moregray;
+  font-size: 1.5rem;
+}
