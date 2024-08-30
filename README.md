@@ -1,6 +1,6 @@
 # 호 호 밥
 
-메뉴 소개 사이트
+[메뉴 소개 사이트, 호호밥](https://hhejo.github.io/hohobob/)
 
 ## 기술 스택
 
