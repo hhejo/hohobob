@@ -1,103 +1,22 @@
 @import './reset.css';
+@import './nav';
+@import './introduce';
+@import './story';
+@import './products';
+@import './reviews';
+// @import './news';
+@import './footer';
 
-// variables
-$nav-height: 60px;
-
-// body
 .body {
   padding-top: $nav-height;
   background-color: whitesmoke;
+  font-family: 'Montserrat', system-ui;
+  font-optical-sizing: auto;
+  color: $black;
 }
 
-// header
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-// nav
-.nav {
-  background-color: cadetblue;
-  height: $nav-height;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 20px 0 20px;
-
-  &__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__menu {
-    display: flex;
-  }
-
-  &__links {
-    background-color: wheat;
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 48px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  &__auth {
-    background-color: tomato;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-// introduce
-.introduce {
-  background-color: coral;
-  width: 100%;
-  height: calc(100vh - $nav-height);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-// story
-.story {
-  background-color: darkseagreen;
-  width: 100%;
-  height: calc(100vh - $nav-height);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &__top {
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  &__bottom {
-    display: flex;
-  }
-
-  &__card {
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__card:first-child {
-    margin-right: 20px;
-  }
-
-  // &__text { }
 }
