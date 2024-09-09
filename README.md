@@ -105,8 +105,6 @@
 
 ## 7. 어려웠던 부분, 해결한 과정
 
-SCSS, CSS
-
 ### SCSS
 
 `sass --watch`
