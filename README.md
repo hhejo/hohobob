@@ -1,18 +1,14 @@
-# 호호밥
+# 호호밥 (HoHoBoB)
 
 ## 요약
 
-**[호호밥: 식당 소개 사이트](https://hhejo.github.io/hohobob/)**
+식당 소개 사이트
 
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-
-| ![1. introduce, nav](./assets/1-introduce-and-nav.png) | ![2. story](./assets/2-story.png)                        |
-| ------------------------------------------------------ | -------------------------------------------------------- |
-| ![3. products](./assets/3-products.png)                | ![4. reviews, footer](./assets/4-reviews-and-footer.png) |
+![호호밥 (HoHoBoB)](./assets/00-hohobob.png)
 
 ## 상세
 
-2번째 프로젝트
+2번째 PJT
 
 ### 0. 목차
 
@@ -26,7 +22,7 @@
 
 ## 1. 소개
 
-**[호호밥](https://hhejo.github.io/hohobob/)**
+**[호호밥 (HoHoBoB)](https://hhejo.github.io/hohobob/)**
 
 - 호호밥이라는 가상의 식당을 소개하는 웹 페이지
 - 어떤 식당인지, 어떤 서비스를 하는지, 이를 위해 어떤 노력을 하는지 소개
@@ -36,12 +32,6 @@
 ## 2. 기술 스택
 
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-
-`SCSS` 사용 이유
-
-- `CSS`에서는 변수를 사용할 수 없기 때문에 `SCSS` 사용을 고려
-- 선택자 중첩의 기능도 유용할 것이라고 생각
-- 믹스인 기능을 통해 코드 중복 제거
 
 ## 3. 느낀 점
 
@@ -66,6 +56,10 @@
 5. Etc
    - Nav
    - Footer
+
+| ![1. introduce, nav](./assets/1-introduce-and-nav.png) | ![2. story](./assets/2-story.png)                        |
+| ------------------------------------------------------ | -------------------------------------------------------- |
+| ![3. products](./assets/3-products.png)                | ![4. reviews, footer](./assets/4-reviews-and-footer.png) |
 
 ### 1. Introduce
 
@@ -108,6 +102,12 @@
 ## 7. 어려웠던 부분, 해결한 과정
 
 ### SCSS
+
+`SCSS` 사용 이유
+
+- `CSS`에서는 변수를 사용할 수 없기 때문에 `SCSS` 사용을 고려
+- 선택자 중첩의 기능도 유용할 것이라고 생각
+- 믹스인 기능을 통해 코드 중복 제거
 
 `sass --watch`
 
