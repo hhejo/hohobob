@@ -4,7 +4,7 @@
 
 식당 소개 사이트
 
-![호호밥 (HoHoBoB)](./assets/00-hohobob-.png)
+![호호밥 (HoHoBoB)](./assets/00-hohobob.png)
 
 ## 상세
 
